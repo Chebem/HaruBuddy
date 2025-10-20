@@ -20,3 +20,16 @@ urllib3==2.5.0
 webdriver-manager==4.0.2
 websocket-client==1.9.0
 wsproto==1.2.0
+Flask
+requests
+beautifulsoup4
+selenium
+google-generativeai
+langchain
+chromadb
+sentence-transformers
+firebase-admin
+python-dotenv
+googletrans==4.0.0-rc1
+regex
+gunicorn

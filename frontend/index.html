@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HaruBuddy Login</title>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <h1>👋 Welcome to HaruBuddy</h1>
+
+  <div class="auth-container">
+    <input type="email" id="email" placeholder="Email" />
+    <input type="password" id="password" placeholder="Password" />
+
+    <button onclick="registerUser()">Register</button>
+    <button onclick="loginUser()">Login</button>
+
+    <button id="googleBtn" class="google-btn">
+      <img src="/frontend/static/img/google.png" width="18" alt="Google logo" />
+      Sign in with Google
+    </button>
+
+    <button onclick="logoutUser()">Logout</button>
+  </div>
+
+  <script type="module" src="/static/js/main.js"></script>
+</body>
+</html>
